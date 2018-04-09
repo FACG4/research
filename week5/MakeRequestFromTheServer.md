@@ -16,7 +16,7 @@ The answer is simple: as a Javascript developer you will interact every day with
 
 
 
-### 2. The request module:
+### 1. The request module:
 
 
 ``` js
@@ -36,7 +36,7 @@ request.get(url, (error, response, body) => {
 });
 ```
 
-### 3. The node-fetch module:
+### 2. The node-fetch module:
 ``` js
 const fetch = require("node-fetch");
 const url =   "https://maps.googleapis.com/maps/api/geocode/json?address=USA";
@@ -54,7 +54,7 @@ fetch(url)
     console.log(error);
   });
 ```
-### 4. axios module:</br>
+### 3. axios module:</br>
 is another super popular NPM module for making HTTP requests. It supports promises by default. Axios can be used both for the frontend and the backend and one of its core feature is the ability to transform both the request and the response. Plus you don’t need to explicitly process the response in order to get the JSON as you did with node-fetch: axios will do it automagically.
 ```js
 onst axios = require("axios");
@@ -73,7 +73,7 @@ Longitude: ${response.data.results[0].geometry.location.lng}
 console.log(error);
 });
 ```
-### 5. superagent module
+### 4. superagent module
 
 ``` js
 const superagent = require('superagent');
@@ -88,7 +88,7 @@ console.log(res.body.explanation);
 ```
 
 
-### 1. Making HTTP requests with Node.js: http.get and https.get
+### 5. Making HTTP requests with Node.js: http.get and https.get
 
 
 ```js
