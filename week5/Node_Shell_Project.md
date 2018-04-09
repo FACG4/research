@@ -25,7 +25,7 @@ rd.on('line',function(line){
     console.log("^_^",chalk.underline.inverse(line));
   }
   if(line.includes('fail')){
-    console.log("'_'"chalk.red.underline.inverse(line));
+    console.log("'_'", chalk.red.underline.inverse(line));
   }
   if(line.includes('#') && !line.includes('pass')&& !line.includes('fail')){
     const rainbow = chalkAnimation.rainbow(line)
