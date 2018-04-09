@@ -16,9 +16,9 @@ when you pipe the results of your tests into,
   This is our great code! ^__^
 
 ```var readLine = require('readline');
+var chalkAnimation = require('chalk-animation');
 var rd=readLine.createInterface({
   input: process.stdin,
- // output: process.stdout
 })
 rd.on('line',function(line){
   if(line.includes('pass')){
@@ -28,6 +28,8 @@ rd.on('line',function(line){
     console.log("'_'"chalk.red.underline.inverse(line));
   }
   if(line.includes('#') && !line.includes('pass')&& !line.includes('fail')){
-    console.log("^_*",chalk.yellow.bold(line));
+    const rainbow = chalkAnimation.rainbow(line)
+    rainbow.start()
   }
+  
 })```
