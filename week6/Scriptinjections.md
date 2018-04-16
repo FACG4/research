@@ -76,7 +76,7 @@ Parameterization doesn't require stored procedures. You can also take advantage 
 Give the user authuntecation to create alter and drop tables .
 
 ### SQL Injection Based on 1=1 is Always True
-Look at the example above again. The original purpose of the code was to create an SQL statement to select a user, with a given user id.
+ The original purpose of the code was to create an SQL statement to select a user, with a given user id.
 
 If there is nothing to prevent a user from entering "wrong" input, the user can enter some "smart" input like this:
 
