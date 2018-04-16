@@ -1,5 +1,8 @@
 # Types of DBs
 
+
+[IMAGE ALT TEXT HERE](https://cdn-images-1.medium.com/max/499/0*GQE0-Nd5BYBp9G90.jpg)
+
 ## SQL Databases
 #### RELATIONAL DATABASES
 ### REASONS TO USE A SQL DATABASE
