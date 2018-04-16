@@ -14,13 +14,37 @@
 ### Popular SQL databases and RDBMS’s
 
 - MySQL
+```javascript
+var mysql = require('mysql');
+```
 - Oracle
+```javascript
+var mysql = require('oracledb');
+```
 - IMB DB2
+```javascript
+var ibmdb = require('ibm_db');
+```
 - Sybase
+```javascript
+var Sybase = require('sybase');
+```
 - MS SQL Server
+```javascript
+var sql = require('mssql')
+```
 - Microsoft Azure
+```javascript
+var sqlManagement = require('azure-asm-sql');
+```
 - MariaDB
+```javascript
+var nodeMaria = require('node-mariadb');
+```
 - PostgreSQL
+```javascript
+var pg = require('pg');
+```
 
 ## NoSQL Databases
 
@@ -33,8 +57,28 @@
 
 ### Popular NoSQL Databases
 - MongoDB
+```javascript 
+var mongodb = require('mongodb');
+```
 - Apache’s CouchDB
+```javascript 
+var couchdb = require('node-couchdb');
+```
 - HBase
+```javascript 
+var hbase = require('hbase');
+
+```
 - Oracle NoSQL
+```javascript 
+var nosqldb-oraclejs = require('nosqldb-oraclejs');
+```
 - Apache’s Cassandra DB
+```javascript 
+var cassandra = require('cassandra-driver');
+```
 - Riak
+```javascript 
+var riak-js = require('riak-js');
+```
+
