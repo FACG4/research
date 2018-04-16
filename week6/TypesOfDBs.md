@@ -1,7 +1,7 @@
 # Types of DBs
 
 
-[IMAGE](https://cdn-images-1.medium.com/max/499/0*GQE0-Nd5BYBp9G90.jpg)
+![IMAGE](https://cdn-images-1.medium.com/max/499/0*GQE0-Nd5BYBp9G90.jpg)
 
 ## SQL Databases
 #### RELATIONAL DATABASES
