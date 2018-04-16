@@ -1,5 +1,7 @@
 # Types of DBs
 
+![IMAGE](https://cdn-images-1.medium.com/max/2000/1*u_nsXXVHO3qjyDRQSPLubg.jpeg
+)
 
 ![IMAGE](https://cdn-images-1.medium.com/max/499/0*GQE0-Nd5BYBp9G90.jpg)
 
