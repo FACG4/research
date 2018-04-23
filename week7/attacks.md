@@ -28,16 +28,16 @@
   </li>
   <li>Abd encrypts a message with what she believes to be Farah's key, thinking that only Farah can read it:
   <dl>
-  <dd><span style="color:green;">Abd</span> <i>"Meet me at the bus stop!" [encrypted with Mohammed's key]</i> → &nbsp; &nbsp; <span style="color:red;">Mohammed</span> &nbsp; &nbsp; <span style="color:green;">Farah</span></dd>
+  <dd><span style="color:green;">Abd</span> <i>"Meet me at GSG!" [encrypted with Mohammed's key]</i> → &nbsp; &nbsp; <span style="color:red;">Mohammed</span> &nbsp; &nbsp; <span style="color:green;">Farah</span></dd>
   </dl>
   </li>
   <li>However, because it was actually encrypted with Mohammed's key, Mohammed can decrypt it, read it, modify it (if desired), re-encrypt with Farah's key, and forward it to Farah:
   <dl>
-  <dd><span style="color:green;">Abd</span> &nbsp; &nbsp; <span style="color:red;">Mohammed</span> <i>"Meet me at the van down by the river!" [encrypted with Farah's key]</i> → &nbsp; &nbsp; <span style="color:green;">Farah</span></dd>
+  <dd><span style="color:green;">Abd</span> &nbsp; &nbsp; <span style="color:red;">Mohammed</span> <i>"Meet me at beach after mid night!" [encrypted with Farah's key]</i> → &nbsp; &nbsp; <span style="color:green;">Farah</span></dd>
   </dl>
   </li>
   <li>Farah thinks that this message is a secure communication from Abd.</li>
-  <li>Farah goes to the van down by the river and gets robbed by Mohammed.</li>
+  <li>Farah goes to the beach and gets robbed by Mohammed.</li>
   </ol>
 
 
