@@ -36,11 +36,22 @@ XSS:
 **Identifying Source Origin**
 
 To identify the source origin, we recommend using one of these two standard headers that almost all requests include one or both of:
-* Origin Header
-* Referer Header
+* Origin Header: the origin header checks where the fetch originated from.
+
+    Origin header syntax: ```Origin: ""
+Origin: <scheme> "://" <hostname> [ ":" <port> ]```
+
+* Referer Header: The Referer request header contains the address of the previous web page from which a link to the currently requested page was followed.
+
+**_A Referer header is not sent by browsers if:_**
+
+* the referring resource is a local "file" or "data" URI,
+* An unsecured HTTP request is used and the referring page was received with a secure protocol (HTTPS).
+
+  Referer header syntax: ```Referer: <url>```
 
 **If both headers are not present:**
 * Identifying the Target Origin
 
-Further reading on preventing CSRF [here
+**Further reading on preventing CSRF** [here
 ](https://bit.ly/NKbSES)
