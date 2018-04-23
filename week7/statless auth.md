@@ -20,7 +20,17 @@ This allows the user to fully rely on data APIs that are stateless and even make
 
 ![image](https://i.imgur.com/OCD5AJB.png)
 _
+## Statefull Authentication
+ ![This is image](Stateful.png)
 
+
+ ## Stateless Authentication
+ ![This is image](stateless.png)
+
+ ## Pros:
+ * The biggest one is that your storage needs are zero, because you are not storing anything.
+ * An application that forgets about its access token will simply no longer remember it and the data will automatically expire.
+ * Systems can be entirely decoupled from each other, thanks to no more shared token storage.
 
 
 
@@ -29,17 +39,6 @@ _
  we had the predominant server-based authentication. As we all know, HTTP Protocol is stateless, this means that if we authenticate a user with a username and password, then on the next request, our application won’t know who we are. We would have to authenticate again. So there was a need to ensure that after a user has logged in, the user’s authentication status can still be verified on every subsequent HTTP request.
 
  ![image](https://i.imgur.com/cGa7eQn.png)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
