@@ -4,7 +4,7 @@
 
 
 
-why some websites begin with “http://” and others with “https://”? That “s” stands for “secure,” and it indicates that the site you’re browsing is using a protected, encrypted connection. This measure of security has become increasingly important for all sites on the web—both to protect users’ sensitive information and to improve SEO. 
+why some websites begin with “http://” and others with “https://”? That “s” stands for “secure,” and it indicates that the site you’re browsing is using a protected, encrypted connection. This measure of security has become increasingly important for all sites on the web—both to protect users’ sensitive information and to improve SEO.
 "Search engine optimization"
 
 ![alt text](https://content-static.upwork.com/blog/uploads/sites/3/2017/06/19063529/Screen-Shot-2017-06-14-at-11.59.26-AM.png)
@@ -40,7 +40,14 @@ It’s relatively straightforward to obtain free SSL/TLS certificates and instal
 
 Alternatively, you can obtain or purchase an SSL certificate from your own hosting provider if they offer to handle the installation for you.
 
-## To get started, you’ll need to:
+## IMPLEMENTING SSL ON YOUR SITE
+With SSL, you’ll be changing your domain name from “http://sitename” to “https://sitename.”
+
+It’s relatively straightforward to obtain free SSL/TLS certificates and install them on your web server. You’ll need to get an SSL certificate from a provider like Cloudflare or Let’s Encrypt and then go about installing it. While this is possible to do even if you’re not too familiar with IT, it’s probably a good idea to engage a skilled DevOps professional for the task. For a step-by-step guide to setting up HTTPS encryption on your site, check out this article.
+
+Alternatively, you can obtain or purchase an SSL certificate from your own hosting provider if they offer to handle the installation for you.
+
+### To get started, you’ll need to:
 
 Choose an SSL provider. You’ll want to look for a trusted, verified SSL provider that’s recognized by browsers, devices, and operating systems as a trusted certificate authority.
 Choose the kind of SSL certificate you want. Some SSL certificates require more background checks and verification to obtain.
