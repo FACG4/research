@@ -36,21 +36,26 @@ Before we talk more about SSL certificates, you’ve probably seen SSL and TLS (
 ## IMPLEMENTING SSL ON YOUR SITE
 With SSL, you’ll be changing your domain name from “http://sitename” to “https://sitename.”
 
-It’s relatively straightforward to obtain free SSL/TLS certificates and install them on your web server. You’ll need to get an SSL certificate from a provider like Cloudflare or Let’s Encrypt and then go about installing it. While this is possible to do even if you’re not too familiar with IT, it’s probably a good idea to engage a skilled DevOps professional for the task. For a step-by-step guide to setting up HTTPS encryption on your site, check out this article.
+It’s relatively straightforward to obtain free SSL/TLS certificates and install them on your web server. You’ll need to get an SSL certificate from a provider like Cloudflare or Let’s Encrypt and then go about installing it. While this is possible to do even if you’re not too familiar with IT, it’s probably a good idea to engage a skilled DevOps professional for the task. 
+For a step-by-step guide to setting up HTTPS encryption on your site, check out this article.
+[Read more](https://medium.com/@nileshsingh/everything-about-creating-an-https-server-using-node-js-2fc5c48a8d4e)
 
-Alternatively, you can obtain or purchase an SSL certificate from your own hosting provider if they offer to handle the installation for you.
+
 
 ### To get started, you’ll need to:
 
-Choose an SSL provider. You’ll want to look for a trusted, verified SSL provider that’s recognized by browsers, devices, and operating systems as a trusted certificate authority.
-Choose the kind of SSL certificate you want. Some SSL certificates require more background checks and verification to obtain.
-Strategize your switch to HTTPS. You’ll want to consider your timing and how to handle things like existing backlinks. For WordPress sites in particular, WPMUDEV provides an excellent SSL guide for timing your transition, how to handle existing backlinks to your site’s URL, and more.
-### To summarize: Why every site should be SSL-encrypted
-Not convinced you need an SSL certificate for your site? Here’s a quick summary of what implementing SSL encryption on your site will provide:
+* **Choose an SSL provider.** You’ll want to look for a trusted, verified SSL provider that’s recognized by browsers, devices, and operating systems as a trusted certificate authority.
 
-* Better SEO ranking. SSL and HTTPS are not only valuable to security, but they’re also going to be helpful when it comes to SEO, ecommerce, and visual notifications about the security of a page in Google Chrome. The Google Security Team announced that the 56th version of Google Chrome will visually alert users when they’re not on a secure website with an SSL certificate.
+* **Choose the kind of SSL certificate you want** Some SSL certificates require more background checks and verification to obtain.
+
+* **Strategize your switch to HTTPS.** You’ll want to consider your timing and how to handle things like existing backlinks. 
+
+### To summarize: Why every site should be SSL-encrypted
+ what implementing SSL encryption on your site will provide:
+
+* Better SEO ranking. SSL and HTTPS are not only valuable to security, but they’re also going to be helpful when it comes to SEO, ecommerce, and visual notifications about the security of a page in Google Chrome. 
+
 * Safer, more secure data transfer between servers, with less chance of interception
 * Increased trust with customers
 * SSL is required for Payment Card Industry (PCI) compliance.
 
-[Read more](https://medium.com/@nileshsingh/everything-about-creating-an-https-server-using-node-js-2fc5c48a8d4e)
