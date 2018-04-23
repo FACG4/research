@@ -1,4 +1,7 @@
 # Web storage
+
+![r](http://daily-experiences.com/wp-content/uploads/2014/05/web-storage-vs-cookies-3.jpg)
+
 ***What are local storage ?***
 
    **local storage**: stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache / Locally Stored Data
