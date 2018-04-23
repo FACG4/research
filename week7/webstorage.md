@@ -14,7 +14,7 @@ localStorage.removeItem("lastname");
 ```
 
 
-   *** What is session storage ?***
+   ***What is session storage ?***
 
   **session storage** : similar to localStorage but expires when the browser closed (not the tab).
 
