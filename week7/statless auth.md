@@ -3,7 +3,7 @@
 
 #### What is session based authentication (stateful) vs token based authentication (stateless)?
 
-####  What Are JSON Web Tokens?
+####   Are JSON Web Tokens:
 JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way to securely transmit information between parties as a JSON Object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with HMAC algorithm) or a public/private key pair using RSA.
 
 #### JWT Anatomy
@@ -20,7 +20,17 @@ This allows the user to fully rely on data APIs that are stateless and even make
 
 ![image](https://i.imgur.com/OCD5AJB.png)
 _
+## Statefull Authentication
+ ![This is image](Stateful.png)
 
+
+ ## Stateless Authentication
+ ![This is image](stateless.png)
+
+ ## Pros:
+ * The biggest one is that your storage needs are zero, because you are not storing anything.
+ * An application that forgets about its access token will simply no longer remember it and the data will automatically expire.
+ * Systems can be entirely decoupled from each other, thanks to no more shared token storage.
 
 
 
@@ -37,6 +47,7 @@ _
  ## Stateless Authentication
  ![This is image](stateless.png)
 
+<<<<<<< HEAD
  ## Pros:
  * The biggest one is that your storage needs are zero, because you are not storing anything.
  * An application that forgets about its access token will simply no longer remember it and the data will automatically expire.
@@ -45,6 +56,8 @@ _
 
 
 
+=======
+>>>>>>> a72b079058714711a343721336231d67f795a8c7
 
 
 
