@@ -1,7 +1,7 @@
 # Session Management In Express
 
 ### What are session?
-* Ii is the method which used between request so the server can store some user data and use it.
+* It is the method which used between request so the server can store some user data and use it.
 * Session handling in any web application is very important and must have thing, without it we won’t be able to track user and it’s activity.
 * We do not use cookies and URL parameters since they both are readable in client side.
 
